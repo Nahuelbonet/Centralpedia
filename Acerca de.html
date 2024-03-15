@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Acerca de</title>
+    <link rel="stylesheet" href="Acerca de.css">
+    <link rel="shortcut icon" href="Nueva carpeta/img/internet.png">
+</head>
+
+<nav>
+    <img src="Nueva carpeta/img/internet.png" alt="logo" width="90px" height="80px">
+    <ul>
+        <li><a href="#">INICIO</a></li>
+        <span></span>
+        <li><a href="#">SUGERENCIA</a></li>
+        <span></span>
+        <li><a href="#">AYUDA</a></li>
+        <span></span>
+        <li><a href="#">NOSOTROS</a></li>
+    </ul>
+    <div class="div1">
+        <img src="Nueva carpeta/img/upload1.png" alt="upload" width="60px" height="55px">
+        <p>cargar pagina</p>
+        <img src="Nueva carpeta/img/user1.png" alt="user" width="40px" height="55px">
+        <p>inicar sesion</p>
+        <p>registrarse</p>
+    </div>
+</nav>
+
+<body>
+    <div class="comment-box">
+      <h2>Deja tu comentario</h2>
+      <div class="rating">
+          <span class="star" onmouseover="highlightStars(this)" onmouseout="resetStars()">&#9733;</span>
+          <span class="star" onmouseover="highlightStars(this)" onmouseout="resetStars()">&#9733;</span>
+          <span class="star" onmouseover="highlightStars(this)" onmouseout="resetStars()">&#9733;</span>
+          <span class="star" onmouseover="highlightStars(this)" onmouseout="resetStars()">&#9733;</span>
+          <span class="star" onmouseover="highlightStars(this)" onmouseout="resetStars()">&#9733;</span>
+      </div>
+      <input type="text" id="name" placeholder="Tu nombre">
+      <textarea id="comment-text" placeholder="Tu comentario"></textarea>
+      <button class="botonv" onclick="submitComment()">Enviar comentario</button>
+  </div>
+  
+  <div id="comments-section">
+      <h2>Comentarios:</h2>
+      <ul id="comments-list"></ul>
+  </div>
+  
+      <script src="hola.js"></script>
+  </body>
+  </html>
+
+<script src="java.js"></script>
+
+</html>
